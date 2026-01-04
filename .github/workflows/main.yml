@@ -13,7 +13,7 @@ jobs:
       - name: Print a welcome message
         run: echo "welcome to our first Github Actions Workflow!"
 
-      - name: Che kout repository
+      - name: Checkout repository
         uses: actions/checkout@v6.0.1
 
       - name: List Repository files
